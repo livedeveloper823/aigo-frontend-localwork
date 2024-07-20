@@ -1,0 +1,66 @@
+.theme-dark:root {
+    --tv-color-platform-background: #13181F;
+    --tv-color-pane-background: #171D24;
+    --tv-color-toolbar-button-background-hover: #757575;
+    --tv-color-toolbar-button-background-expanded: #68CDF9;
+    --tv-color-toolbar-button-background-active: #68CDF9;
+    --tv-color-toolbar-button-background-active-hover: #606060; /* Slightly darker gray than #757575 */
+    --tv-color-toolbar-button-text: white;
+    --tv-color-toolbar-button-text-hover: #FFFFFF; 
+    --tv-color-toolbar-button-text-active: #FFFFFF;
+    --tv-color-toolbar-button-text-active-hover: #68CDF9;
+    --tv-color-item-active-text: #68CDF9;
+    --tv-color-toolbar-toggle-button-background-active: #4AB6D4; 
+    --tv-color-toolbar-toggle-button-background-active-hover: #68CDF9;
+    --tv-color-toolbar-divider-background: #2A333C; /* Slightly lighter than component background */
+
+    --tv-color-popup-background: #171D24;
+    --tv-color-popup-element-text: white;
+    --tv-color-popup-element-text-hover: #FFFFFF;
+    --tv-color-popup-element-background-hover: #757575; 
+    --tv-color-popup-element-divider-background: #2A333C; /* Slightly lighter than component background */
+    --tv-color-popup-element-secondary-text: #B8BFC5; /* Light gray for secondary text */
+    --tv-color-popup-element-hint-text: #B8BFC5; /* Light gray for hint text */
+    --tv-color-popup-element-text-active: #68CDF9;
+    --tv-color-popup-element-background-active: #2A333C; /* Slightly lighter than component background */
+    --tv-color-popup-element-toolbox-text: white;
+    --tv-color-popup-element-toolbox-text-hover: #FFFFFF;
+    --tv-color-popup-element-toolbox-text-active-hover: #68CDF9;
+    --tv-color-popup-element-toolbox-background-hover: #757575; 
+    --tv-color-popup-element-toolbox-background-active-hover: #606060; /* Slightly darker gray than #757575 */
+}
+
+@keyframes rainbow {
+    0%{border-color: red;}
+    25%{border-color: yellow;}
+    50%{border-color: blue;}
+    75%{border-color: green;}
+    100%{border-color: red;}
+  }
+  
+  .add-keyword-button {
+    border: 1px solid;
+    animation: rainbow 10s linear infinite;
+    height: 100%;
+    box-sizing: border-box;
+    /* transition: background-color 0.5s ease; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
+  
+  .add-keyword-button:hover, .clear-chart-button:hover {
+    background-color: grey;
+  }
+
+  .clear-chart-button {
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }

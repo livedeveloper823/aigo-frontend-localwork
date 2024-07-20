@@ -1,0 +1,43 @@
+{
+  "Home": {
+    "trade": "Trade",
+    "explore": "Explore",
+    "find": "Find"
+  },
+  "Navbar": {
+    "marketOverview": "Market Overview",
+    "cryptocurrencies": "Cryptocurrencies",
+    "exchanges": "Exchanges",
+    "academy": "Academy",
+    "news": "News",
+    "goPro": "Go Pro",
+    "backoffice": "Backoffice",
+    "screener": "Screener",
+    "rankings": "Rankings",
+    "projects": "Projects"
+  },
+  "Footer": {
+    "features": "Features",
+    "all-crypto-prices": "All crypto prices",
+    "all-crypto-marktes": "All crypto marktes",
+    "all-crypto-guides": "All crypto guides",
+    "app": "App",
+    "academy": "Academy",
+    "backoffice": "Backoffice",
+    "resources": "Resources",
+    "overview": "Overview",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "help-center": "Help Center",
+    "affiliate-program": "Affiliate Program",
+    "company": "Company",
+    "sales-letter": "Sales Letter",
+    "privacy-policy": "Privacy Policy",
+    "legal-letter": "Legal Letter",
+    "pricing-policy": "Pricing Policy",
+    "compensation-plan": "Compensation Plan",
+    "get-the-app": "Get the App",
+    "download-on-the": "Download on the",
+    "get-it-on": "GET IT ON"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Home": {
+    "trade": "Tорговля",
+    "explore": "Исследовать",
+    "find": "Находить"
+  },
+  "Navbar": {
+    "marketOverview": "Обзор рынка",
+    "cryptocurrencies": "Криптовалюты",
+    "exchanges": "Биржи",
+    "academy": "Академия",
+    "news": "Новости",
+    "goPro": "Стать Pro",
+    "backoffice": "Бэк-офис",
+    "screener": "Скринер",
+    "rankings": "Рейтинги",
+    "projects": "Проекты"
+  },
+  "Footer": {
+    "all-crypto-prices": "Все цены на криптовалюту",
+    "all-crypto-marktes": "Все криптобиржи",
+    "all-crypto-guides": "Все руководства по криптовалюте",
+    "app": "Приложение",
+    "features": "Функции",
+    "academy": "Академия",
+    "backoffice": "Бэк-офис",
+    "resources": "Ресурсы",
+    "overview": "Обзор",
+    "solutions": "Решения",
+    "pricing": "Цены",
+    "help-center": "Центр помощи",
+    "affiliate-program": "Партнерская программа",
+    "company": "Компания",
+    "sales-letter": "Коммерческое письмо",
+    "privacy-policy": "политика конфиденциальности",
+    "get-it-on": "НАЧИНАЙТЕ ЭТО",
+    "download-on-the": "Загрузите на",
+    "get-the-app": "Получить приложение",
+    "compensation-plan": "План возмещения",
+    "pricing-policy": "Ценовая политика",
+    "legal-letter": "Юридическое письмо"
+  }
+}

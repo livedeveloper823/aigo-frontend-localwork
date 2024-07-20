@@ -1,0 +1,43 @@
+{
+  "Home": {
+    "trade": "Handel",
+    "explore": "Erkunden",
+    "find": "Finden"
+  },
+  "Navbar": {
+    "marketOverview": "Marktübersicht",
+    "cryptocurrencies": "Kryptowährungen",
+    "exchanges": "Börsen",
+    "academy": "Akademie",
+    "news": "Nachrichten",
+    "goPro": "Pro werden",
+    "backoffice": "Backoffice",
+    "screener": "Screener",
+    "rankings": "Ranglisten",
+    "projects": "Projekte"
+  },
+  "Footer": {
+    "all-crypto-prices": "Alle Kryptopreise",
+    "all-crypto-marktes": "Alle Kryptomärkte",
+    "all-crypto-guides": "Alle Krypto-Anleitungen",
+    "app": "App",
+    "features": "Merkmale",
+    "academy": "Akademie",
+    "backoffice": "Backoffice",
+    "resources": "Ressourcen",
+    "overview": "Überblick",
+    "solutions": "Lösungen",
+    "pricing": "Preisgestaltung",
+    "help-center": "Hilfezentrum",
+    "affiliate-program": "Partnerprogramm",
+    "company": "Unternehmen",
+    "sales-letter": "Werbebrief",
+    "privacy-policy": "Datenschutzrichtlinie",
+    "get-it-on": "Mach es an",
+    "download-on-the": "Download auf der",
+    "get-the-app": "Hol dir die App",
+    "compensation-plan": "Entschädigungsplan",
+    "pricing-policy": "Preispolitik",
+    "legal-letter": "Gesetzlicher Brief"
+  }
+}
