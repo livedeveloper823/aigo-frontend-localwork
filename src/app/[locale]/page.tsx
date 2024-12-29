@@ -295,8 +295,8 @@ export default function Home() {
               </Link>
             </div>
             {topGainers && topGainers.map((coin) =>
-              <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
-                <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+              <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+                <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
                   <div className="flex items-center gap-1">
                     <Image src={`${coin.symbol.toLowerCase()}.png`} alt="" width={30} height={30} />
                     <div className="2xl:flex 2xl:items-center md:block flex">
@@ -316,8 +316,8 @@ export default function Home() {
                       <p className="flex items-center text-red-500">{coin.percent_change_24h.toFixed(2)}%<PriceDown /></p> :
                       <p className="flex items-center text-green-500">{coin.percent_change_24h.toFixed(2)}%<PriceRaise /></p>}
                   </div>
-                </div>
-              </Link>
+                </Link>
+              </div>
             )}
           </div>
           {/* Top Losers coins */}
@@ -329,8 +329,8 @@ export default function Home() {
               </Link>
             </div>
             {topLosers && topLosers.map((coin) =>
-              <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
-                <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+              <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+                <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
                   <div className="flex items-center gap-1">
                     <Image src={`${coin.symbol.toLowerCase()}.png`} alt="" width={30} height={30} />
                     <div className="2xl:flex 2xl:items-center md:block flex">
@@ -351,8 +351,8 @@ export default function Home() {
                       <p className="flex items-center text-red-500">{coin.percent_change_24h.toFixed(2)}%<PriceDown /></p> :
                       <p className="flex items-center text-green-500">{coin.percent_change_24h.toFixed(2)}%<PriceRaise /></p>}
                   </div>
-                </div>
-              </Link>
+                </Link>
+              </div>
             )}
           </div>
           {/* New Coins */}
@@ -364,8 +364,8 @@ export default function Home() {
               </Link>
             </div>
             {topGainers && topGainers.map((coin) =>
-              <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
-                <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+              <div key={coin.market_cap_rank} className="flex justify-between py-4 mt-2 overflow-hidden">
+                <Link href={`/coins/${coin.symbol.toLowerCase()}`}>
                   <div className="flex items-center gap-1">
                     <Image src={`${coin.symbol.toLowerCase()}.png`} alt="" width={30} height={30} />
                     <div className="2xl:flex 2xl:items-center md:block flex">
@@ -386,8 +386,8 @@ export default function Home() {
                       <p className="flex items-center text-red-500">{coin.percent_change_24h.toFixed(2)}%<PriceDown /></p> :
                       <p className="flex items-center text-green-500">{coin.percent_change_24h.toFixed(2)}%<PriceRaise /></p>}
                   </div>
-                </div>
-              </Link>
+                </Link>
+              </div>
             )}
           </div>
         </div>
